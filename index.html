@@ -11,14 +11,14 @@
 <body>
 <header>
 
-    <div class="navbar bg-base-100 mt-10">
-        <div class="navbar-start">
+    <div class="navbar bg-base-100 mt-10 ml-16 flex justify-between grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3">
+        <div>
           <img src="images/Logo-ph-tube.png" alt="">
         </div>
-        <div class="navbar-center">
-            <button class="btn">Sort by view</button>
+        <div>
+            <button onclick="headingButton()" class="btn btn-active">Sort by view</button>
         </div>
-        <div class="navbar-end">
+        <div >
         
           <button id="blog" onclick="myBlog()" class="btn bg-rose-600">Blog</button>
         
@@ -27,7 +27,17 @@
       <hr>
     </header>
     <main>
-        
+<button onclick="headingButton()" class="bg-green-100 w-20">all</button>
+<div flex justify-between grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3> 
+<div id="btn1">
+
+</div>
+<div class="btn2">
+    
+</div>
+<div></div>
+<div></div>
+</div>
     </main>
   <script>
    function myBlog(){
