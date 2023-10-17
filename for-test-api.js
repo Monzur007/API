@@ -11,7 +11,7 @@ function headingButton(){
             console.log(data.data[0].category)
     
             const button1 = document.createElement('button');
-            button1.innerText = ('data.data[0].category');
+            button1.innerText = ('All');
             btn1.appendChild(button1);
             button1.style.backgroundColor= 'red';
             button1.style.width = '80px'; 
