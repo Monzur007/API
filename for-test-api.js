@@ -8,9 +8,17 @@ const mainbtns = async () =>{
     }
     const displaybtns = btns => {
         // console.log(btns);
+
+        const btn1 = document.getElementById('btn1')
         btns.forEach(category =>{
             console.log(category)
+            const btnList = document.createElement('div');
+            btnList.innerHTML = `
+            <button>${category.category}</button>
+             `
+             btn1.appendChild(btnList)
         })
+
     }
 
 mainbtns ();
