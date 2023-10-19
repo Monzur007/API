@@ -17,7 +17,8 @@ const mainbtns = async () =>{
             console.log(category)
             const btnList = document.createElement('div');
             btnList.classList = `btn bg-rose-600
-            id= ${category.category}` 
+            id= ${category.category}
+            onclick= "mybtn()` 
            
             btnList.innerHTML = `
             <button>${category.category}</button>
@@ -28,8 +29,8 @@ const mainbtns = async () =>{
         
      }
 
-    
-
+  
+       
 mainbtns ();
 
 
